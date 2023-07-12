@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgAbout"
+        android:layout_width="match_parent"
+        android:layout_height="301dp"
+        android:src="@drawable/our_mission_img" />
+
+    <TextView
+        android:id="@+id/txtAbout"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="10dp"
+        android:text="Our Mission"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!-- Add any other UI components or information specific to onboarding screen 1 -->
+
+
+    <TextView
+        android:id="@+id/txtInformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit dsv dcds fvdfb bfbf nhjnh  hh  gbb  fv."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+    <ImageButton
+        android:id="@+id/btnNext"
+        android:layout_width="78dp"
+        android:layout_height="71dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/next_icon"
+        android:contentDescription="next button"/>
+
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:max="100"
+        android:progress="66"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+
+
+
+
+
+</LinearLayout>

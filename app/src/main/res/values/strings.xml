@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyOnboarding</string>
+    <string name="skip">skip_button</string>
+    <string name="skip_button">skip\n</string>
+    <string name="start_button">start</string>
+    <string name="skip_intro">Skip intro</string>
+</resources>
